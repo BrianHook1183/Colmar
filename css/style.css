@@ -1,9 +1,12 @@
+html {
+  font-size: 16px;
+}
 header {
-  height: 64px;
+  height: 4rem;
   background-color: lightblue;
   display: flex;
   justify-content: space-between;
-  padding: 0px 24px;
+  padding: 0 1.5rem;
 }
 .logo {
   display: inline-flex;
@@ -33,6 +36,7 @@ nav ul {
 }
 .first img {
   width: 60%;
+  margin: 32px 24px;
 }
 
 
