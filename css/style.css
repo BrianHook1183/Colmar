@@ -1,1 +1,21 @@
-
+header {
+  height: 64px;
+  background-color: lightblue;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 24px;
+}
+.logo {
+  display: inline-flex;
+  background-color: lightgreen;
+}
+.logo span {
+  background-color: lavender;
+}
+nav {
+  display: inline-flex;
+  background-color: lightyellow;
+}
+nav ul {
+  display: flex;
+}
