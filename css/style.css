@@ -88,6 +88,24 @@ display: flex;
 }
 
 .third {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.grid {
+  display:flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: center;
+}
+.gridbox {
+  background-color: white;
+  margin: 1rem;
+}
+
+
+
+
 
 }
 .fourth {
