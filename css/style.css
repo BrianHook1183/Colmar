@@ -48,30 +48,45 @@ display: flex;
 }
 .first img {
   width: 60%;
-  height: auto;
   margin: 32px 24px;
 }
-.learn {
+.learn, .side-container {
   display:flex;
   flex-direction: column;
   justify-content: center;
-  width: 30%;
+  border: black solid 2px;
 }
 .learn span {
+  font-size: 1.5rem;
   color: white;
   background-color: #494949;
   display: flex;
   justify-content: center;
   padding: .5rem 0;
-  width: 80%;
+  width: 60%;
 }
 
-
-
-
-.second {
-
+.side-containers {
+  width: 100%;
 }
+.second{
+  align-items: flex-start;
+}
+.leftcontainer {
+  display:flex;
+  flex-direction: column;
+  width: 60%;
+}
+.second img {
+  margin: 32px 24px;
+}
+.pictureandside {
+  display: flex;
+}
+.pictureandside img {
+  width: 35%;
+}
+
 .third {
 
 }
