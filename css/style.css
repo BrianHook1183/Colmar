@@ -168,3 +168,19 @@ flex-direction: column;
 video {
   width: 100%;
 }
+
+
+
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  border: orange solid 2px;
+  padding: 1rem 1.5rem;
+}
+.leftfooter {
+  border: red solid 1px;
+}
+.rightfooter {
+  border: blue solid 1px;
+}
