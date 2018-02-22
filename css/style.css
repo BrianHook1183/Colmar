@@ -10,6 +10,10 @@ h2 {
   font-size: 2.5rem;
   color: #494949;
 }
+h3 {
+  font-size: 2rem;
+  color: #494949;
+}
 header {
   height: 4rem;
   background-color: lightblue;
@@ -46,15 +50,12 @@ display: flex;
 .first {
 
 }
-.first img {
-  width: 60%;
-  margin: 32px 24px;
-}
+
 .learn {
   display:flex;
   flex-direction: column;
   justify-content: center;
-  border: black solid 2px;
+  padding-left: 2rem;
 }
 .learn span {
   font-size: 1.5rem;
@@ -71,12 +72,15 @@ display: flex;
 
 .second{
   align-items: flex-start;
+
 }
 .leftcontainer {
   display:flex;
   flex-direction: column;
   width: 60%;
   margin: 2rem 1.5rem;
+  background-color: lightyellow;
+    border: blue solid 2px;
 }
 .leftcontainer h2 {
   margin-top: 2rem;
@@ -85,7 +89,7 @@ display: flex;
 .second img {
 }
 .right-containers {
-  width: 100%;
+  width: 40%;
   margin-top: 1rem;
 }
 .side-container {
@@ -97,6 +101,7 @@ display: flex;
 }
 .pictureandside {
   display: flex;
+
 }
 .pictureandside img {
   width: 35%;
@@ -105,13 +110,22 @@ display: flex;
   border: red solid 2px;
 }
 
+
+
+
+
+
+
+
+
+
 .third {
   display:flex;
   flex-direction: column;
-  align-items: center;
 }
 .third h2 {
   padding: 2rem 0 1rem 0;
+  text-align: center;
 }
 .grid {
   display:flex;
@@ -135,7 +149,22 @@ display: flex;
 
 
 
-}
-.fourth {
 
+
+
+.fourth {
+border: green solid 2px;
+display:flex;
+flex-direction: column;
+}
+.fourth h2{
+  text-align: center;
+  display: block;
+}
+.subexhibit {
+  display:flex;
+  border: orange solid 2px;
+}
+video {
+  width: 100%;
 }
