@@ -38,6 +38,11 @@ header {
   text-transform: uppercase;
   align-self: center;
 }
+@media only screen and (max-width: 1150px)  {
+.logo span {
+    display: none;
+  }
+}
 #greylogo {
   color: #A6A6A6;
   font-weight: normal;
@@ -46,6 +51,12 @@ nav {
   display: inline-flex;
   align-self: center;
 }
+@media only screen and (max-width: 1150px)  {
+  nav {
+    display: none;
+  }
+}
+
 nav li {
   display: inline-block;
   padding: .5rem;
@@ -61,7 +72,11 @@ display: flex;
   background-color: ##FFFFFF
 }
 .first {
-
+}
+@media only screen and (max-width: 1150px)  {
+.first {
+    flex-direction: column;
+  }
 }
 
 .learn {
@@ -95,11 +110,18 @@ padding: 2rem 0;
   width: 60%;
   margin: 2rem 1.5rem;
 }
+@media only screen and (max-width: 1150px)  {
+.first .leftcontainer {
+  margin: 0;
+  width: 100%;
+  }
+}
 .leftcontainer h2 {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
-.second img {
+.leftcontainer img {
+  width: auto;
 }
 .second .leftcontainer p {
   padding-bottom: 5rem;
