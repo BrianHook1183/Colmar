@@ -18,6 +18,16 @@ h3 {
 p {
   font-size: 1.5rem;
 }
+@media only screen and (max-width: 1150px)  {
+.desktop {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1150px)  {
+.mobile {
+    display: none;
+  }
+}
 header {
   height: 4rem;
   display: flex;
@@ -95,6 +105,12 @@ display: flex;
     width: 100%;
   }
 }
+@media only screen and (max-width: 1150px)  {
+.first .leftcontainer {
+  margin: 0;
+  width: 100%;
+  }
+}
 
 .learn {
   display:flex;
@@ -134,12 +150,14 @@ padding: 2rem 0;
   width: 60%;
   margin: 2rem 1.5rem;
 }
+
+
 @media only screen and (max-width: 1150px)  {
-.first .leftcontainer {
-  margin: 0;
-  width: 100%;
+.second .leftcontainer {
+    display: none;
   }
 }
+
 .leftcontainer h2 {
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -154,28 +172,66 @@ padding: 2rem 0;
   width: 40%;
   margin-top: 1rem;
 }
+@media only screen and (max-width: 1150px)  {
+.right-containers {
+    width: 95%;
+  }
+}
 .side-container {
   display:flex;
   flex-direction: column;
   justify-content: center;
 }
+.side-container h3{
+    margin-bottom: 1rem;
+  }
+@media only screen and (max-width: 1150px)  {
+.side-container {
+    margin-left: 2rem;
+  }
+}
 .pictureandside {
   display: flex;
   border-bottom: lightgrey solid 1px;
 }
+@media only screen and (max-width: 1150px)  {
+.pictureandside {
+    flex-direction:column;
+  }
+}
 .pictureandside img {
   width: 35%;
-  height: auto;
   padding: 1rem;
 }
-
-
+@media only screen and (max-width: 1150px)  {
+.pictureandside img {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1150px)  {
+.pictureandside.grey {
+    background-color: white;
+  }
+}
+.side-container span {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #93BCEB;
+}
 
 
 
 .third {
   display:flex;
   flex-direction: column;
+}
+@media only screen and (max-width: 1150px)  {
+.third.section.grey {
+    background-color: white;
+    border-bottom: lightgrey solid 1px;
+  }
 }
 .third h2 {
   padding: 2rem 0 1rem 0;
@@ -188,15 +244,44 @@ padding: 2rem 0;
   justify-content: center;
   margin-bottom: 2rem;
 }
+@media only screen and (max-width: 1150px)  {
+.grid {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .gridbox {
   background-color: white;
   margin: 1rem;
 }
+@media only screen and (max-width: 1150px)  {
+.gridbox {
+    margin:0 1rem 0 1rem;
+  }
+}
 .gridbox img {
   height: auto;
 }
+@media only screen and (max-width: 1150px)  {
+.gridbox img,
+.gridboxtext span,
+.gridbox p {
+    display:none;
+  }
+}
+@media only screen and (max-width: 1150px)  {
+.gridboxtext h3 {
+    background-color: #D7D7D7;
+    padding: 1rem 0 1.5rem 1rem;
+  }
+}
 .gridboxtext {
   padding: 1rem 0 1.5rem 1rem;
+}
+@media only screen and (max-width: 1150px)  {
+.gridboxtext {
+    padding: 0 0 .5rem 0;
+  }
 }
 .gridbox span {
   line-height: 4rem;
@@ -220,6 +305,22 @@ padding: 2rem 0;
 .subexhibit {
   display:flex;
 }
+@media only screen and (max-width: 1150px)  {
+.subexhibit .right-containers {
+    display:none;
+  }
+}
+@media only screen and (max-width: 1150px)  {
+.subexhibit .leftcontainer {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1150px)  {
+.subexhibit .leftcontainer h3,
+.subexhibit .leftcontainer p {
+    display:none;
+  }
+}
 .subexhibit .leftcontainer h3 {
   margin-bottom: .5rem;
 }
@@ -241,10 +342,16 @@ footer {
   justify-content: space-between;
   padding: 1rem 1.5rem;
   border-top: lightgrey solid 1px;
+  font-size: 1.5rem;
 }
 .leftfooter {
 }
 .rightfooter {
+}
+@media only screen and (max-width: 1150px)  {
+.rightfooter {
+    display:none;
+  }
 }
 .rightfooter li {
   display: inline-block;
